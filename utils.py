@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def get_training_model():
     # ResNet20
-    n = 18
+    n = 6
     depth =  n * 9 + 2
     n_blocks = ((depth - 2) // 9) - 1
 

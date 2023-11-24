@@ -80,7 +80,7 @@ def classifier(x, n_classes):
     outputs = Dense(n_classes, activation='softmax', kernel_initializer='he_normal')(x)
     return outputs
 
-n = 6
+n = 2
 depth =  n * 9 + 2
 n_blocks = ((depth - 2) // 9) - 1
 
